@@ -1,0 +1,17 @@
+server:
+  port: 8888
+  
+spring:
+  cloud:
+    config:
+      server: 
+        git:
+          uri: https://github.com/Albert059/dwb-2023-1Proyecto01
+          search-paths: config-data/api
+
+          default-label: "master"
+          
+  security:
+    user:
+      name: root
+      password: adminadmin
