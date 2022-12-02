@@ -6,7 +6,7 @@ spring:
     config:
       server: 
         git:
-          uri: https://github.com/Albert059/dwb-2023-1Proyecto01
+          uri: https://github.com/Albert059/dwb-20231-1Proyecto01
           search-paths: config-data/api
 
           default-label: "master"
